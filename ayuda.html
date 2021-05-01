@@ -12,7 +12,6 @@
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
     <title>Ayuda del sitio</title>
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
@@ -26,7 +25,12 @@
       callback: function ( anchor, toggle ) {} // Function to run after scrolling
       });
     </script>
-    
+    <style>
+    .slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7, .slider-8, .slider-9, .slider-10, .slider-11, .slider-12{
+      height: 100vh;
+      text-align: center;
+    }
+    </style>
   </head>
   <body>
 
@@ -46,8 +50,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a data-scroll class="nav-link active text-light" href="home.php" >Home</a>
-            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-1" >Salir</a>
-            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-2" >Ayuda</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-1" >Funcionamiento</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-2" >Salir y Ayuda</a>
             <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-3" >Derecha</a>
             <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-4" >Parpadeo</a>
             <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-5" >Salta</a>
@@ -273,8 +277,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #006064;" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-2" >
         <div class="row">
-          <div class="col-xs-12"><h1>Salir del sitio y Ayuda del sitio</h1></div>
-          <div class="col-6 mx-auto"><h3>Este comando de voz se activa al decir "Salir del sitio" permitira cerrar la pagina del sitio y el otro se dira "Ayuda del sitio" para abrir esta página."</h3></div>
+          <div class="col-xs-12 text-white"><h1>Salir del sitio y Ayuda del sitio</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>Este comando de voz se activa al decir "Salir del sitio" permitira cerrar la pagina del sitio y el otro se dira "Ayuda del sitio" para abrir esta página."</h3></div>
           <p>
             <img width="500px" height="250px" src="https://www.anahuac.mx/mexico/sites/default/files/noticias/El-Cenaced-y-la-Anahuac-brindamos-ayuda-psicologica.jpg">
           </p>
@@ -287,8 +291,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #004D40;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-3" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando derecha</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Derecha". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando derecha</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Derecha". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="derecha" onclick="derecha()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -302,8 +306,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #1B5E20;" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando parpadeo</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Parpadeo". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando parpadeo</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Parpadeo". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="parpadea" onclick="parpadea()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -318,8 +322,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #827717;" class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-5" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando salta</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Salta". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando salta</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Salta". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="salta" onclick="salta()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -333,8 +337,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #FF3D00" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-6" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando respiración</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Respiración". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando respiración</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Respiración". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="respiracion" onclick="respiracion()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -348,8 +352,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #0288D1;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-7" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando arriba</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Arriba". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando arriba</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Arriba". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="arriba" onclick="arriba()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -363,8 +367,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #4E342E" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-8" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando izquierda</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Izquierda". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando izquierda</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Izquierda". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="izquierda" onclick="izquierda()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -379,8 +383,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #FFD600;" class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-9" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando abajo</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Abajo". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando abajo</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Abajo". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="abajo" onclick="abajo()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -394,8 +398,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #1A237E;" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-10" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando gira</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Gira". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando gira</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Gira". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="gira" onclick="gira()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -409,8 +413,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #B71C1C;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-11" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando gira crece</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Gira Crece". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando gira crece</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Gira Crece". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="girac" onclick="girac()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
@@ -424,8 +428,8 @@ data-mdb-ride="carousel"
     <div class="container-fluid">
       <div style="background-color: #1B5E20;" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-12" >
         <div class="row">
-          <div class="col-xs-12"><h1>Comando mortal</h1></div>
-          <div class="col-6 mx-auto"><h3>El comando para activar es "Mortal". A continuación puedes ver una demo de la animación.</h3></div>
+          <div class="col-xs-12 text-white"><h1>Comando mortal</h1></div>
+          <div class="col-6 mx-auto text-white"><h3>El comando para activar es "Mortal". A continuación puedes ver una demo de la animación.</h3></div>
           <p>
             <button class="mortal" onclick="mortal()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>

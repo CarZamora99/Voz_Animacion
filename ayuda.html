@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <title>Ayuda del sitio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+    </script>
+    
+  </head>
+  <body>
+
+    <nav id="inicio" class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1 text-light" href="index.html">Animación por Voz</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a data-scroll class="nav-link active text-light" href="home.php" >Home</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-1" >Salir</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-2" >Ayuda</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-3" >Derecha</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-4" >Parpadeo</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-5" >Salta</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-6" >Respiración</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-7" >Arriba</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-8" >Izquierda</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-9" >Abajo</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-10" >Gira</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-11" >Gira crece</a>
+            <a data-scroll class="nav-link active text-light" role="button" aria-current="true" href="#sec-12" >Mortal</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <!-- SECCIÓN 1 -->
+    <div class="container-fluid">
+      <div style="background-color: #FFFFFF;" class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
+        <div class="row">
+          <div class="col-xs-12 text-black"><h1>¿Como funciona?</h1></div>
+          <!-- Carousel wrapper -->
+<div
+id="carouselMultiItemExample"
+class="carousel slide carousel-dark text-center"
+data-mdb-ride="carousel"
+>
+<!-- Controls -->
+<div class="d-flex justify-content-center mb-4">
+  <button
+    class="carousel-control-prev position-relative"
+    type="button"
+    data-mdb-target="#carouselMultiItemExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next position-relative"
+    type="button"
+    data-mdb-target="#carouselMultiItemExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Inner -->
+<div class="carousel-inner py-4">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="img/1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">1. Buscar imagen</h5>
+              <p class="card-text text-black">
+                Buscar una imagen que te guste en internet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">2. Abrir imagen</h5>
+              <p class="card-text text-black">
+              Con click derecho sobre la imagen seleccionaremos abrir imagen en una pestaña nueva.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">3. Seleccionar dirección de imagen</h5>
+              <p class="card-text text-black">
+              Seleccionamos la direccion de arriba con click izquierdo copiamos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="card">
+            <img
+              src="img/4.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">4. Pegar la dirección</h5>
+              <p class="card-text text-black">
+                En la caja de texto pegamos la dirección con Ctrl + V ó click izquierdo sobre la caja de texto.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/5.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">5. Búsqueda</h5>
+              <p class="card-text text-black">
+                Oprimir el botón buscar y debera aparecer nuestra imagen en el espacio de sin imagen.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/6.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">6. Di el comando</h5>
+              <p class="card-text text-black">
+                En la sección animación por voz debemos oprimir el micrófono y hablar algun comando.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div class="card">
+            <img
+              src="img/7.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">7. Poner audífonos</h5>
+              <p class="card-text text-black">
+                Deberas colocar audífonos con micrófono para una respuesta más rápida.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/8.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">8. Diviértete</h5>
+              <p class="card-text text-black">
+                Prueba todos los comandos de voz para hacer que la animación haga diferentes tipos de movimientos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/9.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black">9. Compártelo</h5>
+              <p class="card-text text-black">
+               Si te gustó compartelo con tus amigos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 2 -->
+    <div class="container-fluid">
+      <div style="background-color: #006064;" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-2" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Salir del sitio y Ayuda del sitio</h1></div>
+          <div class="col-6 mx-auto"><h3>Este comando de voz se activa al decir "Salir del sitio" permitira cerrar la pagina del sitio y el otro se dira "Ayuda del sitio" para abrir esta página."</h3></div>
+          <p>
+            <img width="500px" height="250px" src="https://www.anahuac.mx/mexico/sites/default/files/noticias/El-Cenaced-y-la-Anahuac-brindamos-ayuda-psicologica.jpg">
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 3 -->
+    <div class="container-fluid">
+      <div style="background-color: #004D40;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-3" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando derecha</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Derecha". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="derecha" onclick="derecha()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 4 -->
+    <div class="container-fluid">
+      <div style="background-color: #1B5E20;" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando parpadeo</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Parpadeo". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="parpadea" onclick="parpadea()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+    
+    
+    <!-- SECCIÓN 5 -->
+    <div class="container-fluid">
+      <div style="background-color: #827717;" class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-5" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando salta</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Salta". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="salta" onclick="salta()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 6 -->
+    <div class="container-fluid">
+      <div style="background-color: #FF3D00" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-6" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando respiración</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Respiración". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="respiracion" onclick="respiracion()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 7 -->
+    <div class="container-fluid">
+      <div style="background-color: #0288D1;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-7" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando arriba</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Arriba". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="arriba" onclick="arriba()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 8 -->
+    <div class="container-fluid">
+      <div style="background-color: #4E342E" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-8" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando izquierda</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Izquierda". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="izquierda" onclick="izquierda()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+    
+    
+    <!-- SECCIÓN 9 -->
+    <div class="container-fluid">
+      <div style="background-color: #FFD600;" class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-9" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando abajo</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Abajo". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="abajo" onclick="abajo()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 10 -->
+    <div class="container-fluid">
+      <div style="background-color: #1A237E;" class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-10" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando gira</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Gira". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="gira" onclick="gira()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 11 -->
+    <div class="container-fluid">
+      <div style="background-color: #B71C1C;" class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-11" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando gira crece</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Gira Crece". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="girac" onclick="girac()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 12 -->
+    <div class="container-fluid">
+      <div style="background-color: #1B5E20;" class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-12" >
+        <div class="row">
+          <div class="col-xs-12"><h1>Comando mortal</h1></div>
+          <div class="col-6 mx-auto"><h3>El comando para activar es "Mortal". A continuación puedes ver una demo de la animación.</h3></div>
+          <p>
+            <button class="mortal" onclick="mortal()" style="border-radius:10px; width: 100px; height: 100px; background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 36%, rgba(0,212,255,1) 100%);" type="button">Prueba me</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+    <!-- FOOTER -->
+
+      <!--Footer-->
+      <div class="sticky-top">
+        <footer class="bg-dark text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="text-light" >© 2021 Copyright: Carlos Zamora</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+    <!-- FIN FOOTER -->
+       <!-- Boton hacia arriba -->
+<a class="fixed-bottom d-flex flex-row-reverse"   href="#inicio" title="Volver arriba">
+  <span class="fa-stack">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+  </span>
+</a>
+      <!-- Librerias de Animación -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+  <!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.6.2/web-animations.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.6.2/just-animate-all.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.6.2/just-animate-tools.min.js'></script>
+<script  src="./main.js"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+       <!-- MDB -->
+<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+  </body>
+</html>

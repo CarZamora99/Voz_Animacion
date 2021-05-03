@@ -55,7 +55,13 @@
 					<div class="row">
 						<div class="col-md-12">
             <div class="p-1"></div> 
-            <h2 style="color: #FF0000;" align="center">Subir imagen</h2>
+            <h3 style="color: #FF0000;" align="center">Subir imagen</h3>
+        <div class="input-group">
+        <div class="custom-file">
+        <input type="file" class="custom-file-input" id="file" aria-describedby="inputGroupFileAddon01" onchange="mostrar()">
+        <label class="custom-file-label" for="inputGroupFile01">Seleciona una Imagen...</label>
+        </div>
+        </div>
             <div class="p-1"></div>
             <p>Ingresa la URL de la imagen respectiva</p>
                 <form action="home.php" method="post">
@@ -106,7 +112,7 @@
           <h1 style="color: #3A5FD3;" align="center">Ver Animación</h1>
           <div class="p-5"></div>
         <div class="ball d-flex justify-content-center">
-        <img width="200px" height="200px" src="<?php 
+        <img id="imagen" width="200px" height="200px" src="<?php 
         if(empty($_POST['URL'])){
           echo 'https://agroworldspain.com/img/noimage.png';
         } 

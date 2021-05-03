@@ -1,3 +1,17 @@
+function mostrar() {
+  var archivo = document.getElementById("file").files[0];
+  var reader = new FileReader();
+  if (file) {
+      reader.readAsDataURL(archivo);
+      reader.onloadend = function () {
+          document.getElementById("imagen").src = reader.result;
+          const imagen = document.getElementById("imagen");
+
+      }
+  }
+
+}
+
 const searchForm = document.querySelector("#search-form");
 const searchFormInput = searchForm.querySelector("input"); // <=> document.querySelector("#search-form input");
 const info = document.querySelector(".info");

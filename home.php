@@ -59,7 +59,7 @@
         <div class="input-group">
         <div class="custom-file">
         <input type="file" class="custom-file-input" id="file" aria-describedby="inputGroupFileAddon01" onchange="mostrar()">
-        <label class="custom-file-label" for="inputGroupFile01">Seleciona una Imagen...</label>
+        <label class="custom-file-label" for="inputGroupFile01">Seleciona imagen</label>
         </div>
         </div>
             <div class="p-1"></div>
